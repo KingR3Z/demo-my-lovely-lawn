@@ -79,16 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Preeti Shah", rating: 5, text: "Amazing product and service - the team was equally helpful from initial shopping and discovery to install and beyond. Could not be happier with the outcome, it’s transformed the outdoor space and …  ", date: "5 months ago" },
-    { name: "sharon rubin", rating: 5, text: "I can highly recommend My Lovely Lawn for artificial grass. They recently transformed the front of my house and did a fantastic job. The team was professional, reliable, and delivered excellent results ", date: "6 months ago" },
-    { name: "Sarah", rating: 5, text: "Thank you for a brilliant job - we are so happy with the finish and I would like to say that the chaps were lovely, always smiling (even when one cut his thumb yesterday) - cannot praise them enough - Thank you again 🙂 … ", date: "6 months ago" },
-    { name: "Ali Brown", rating: 5, text: "Adam at ‘My Lovely Lawn’ is such a professional and we could not be more happy with the job that he did for us.  We replaced our lawn with artificial grass and from start to finish, the service was 5 star.  Adam’s communication was …  ", date: "3 years ago" },
-    { name: "Sylvia marks", rating: 5, text: "I recommend Adam and his team with no hesitation. They surpassed my expectations. Adam helped me design the layout of the garden and I couldn't be more pleased. His team were hardworking and tidy and what they achieved in a short space of …  ", date: "3 years ago" },
-    { name: "Eniko Guest", rating: 5, text: "The team installed artificial grass in our garden with flower bed edging separated by sleepers. From the start both Dilan and Adam were very professional, responding to our …  ", date: "3 years ago" },
-    { name: "kulbir Singh", rating: 5, text: "We received the best artificial grass installation service in Wimbledon from My Lovely Lawn. Dilan's quote was competitive and reasonable, and their professionals did their job brilliantly. The artificial grass has completely transformed …  ", date: "4 years ago" },
-    { name: "Declan Green", rating: 5, text: "Great quality, great price and even stayed open for me on a Sunday to collect. Wouldn't go anywhere else. Thanks again! ", date: "11 months ago" },
-    { name: "Tiffany Jessop", rating: 5, text: "Excellent pre service. Great value for money. Really efficient, respectful and skilled team. All completed in one day and place left immaculate afterwards. Thrilled with the end result!!  ", date: "2 years ago" },
-    { name: "Saimah Khan", rating: 5, text: "Adam is amazing! Excellent customer service. 100% recommend! ", date: "2 years ago" },
+    { name: "Preeti Shah", rating: 5, text: "Amazing product and service - the team was equally helpful from initial shopping and discovery to install and beyond. Could not be happier with the outcome, it’s transformed the outdoor space and just looks amazing. The install team was very professional, did a brilliant job and cleared up leaving the garden neater than they found it. Can not recommend highly enough", date: "5 months ago" },
+    { name: "sharon rubin", rating: 5, text: "I can highly recommend My Lovely Lawn for artificial grass. They recently transformed the front of my house and did a fantastic job. The team was professional, reliable, and delivered excellent results", date: "6 months ago" },
+    { name: "Sarah", rating: 5, text: "Thank you for a brilliant job - we are so happy with the finish and I would like to say that the chaps were lovely, always smiling (even when one cut his thumb yesterday) - cannot praise them enough - Thank you again 🙂 …", date: "6 months ago" },
+    { name: "Declan Green", rating: 5, text: "Great quality, great price and even stayed open for me on a Sunday to collect. Wouldn't go anywhere else. Thanks again!", date: "11 months ago", badge: "Local Guide" },
+    { name: "Saimah Khan", rating: 5, text: "Adam is amazing! Excellent customer service. 100% recommend!", date: "2 years ago", badge: "Local Guide" },
+    { name: "Tiffany Jessop", rating: 5, text: "Excellent pre service. Great value for money. Really efficient, respectful and skilled team. All completed in one day and place left immaculate afterwards. Thrilled with the end result!!", date: "2 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
